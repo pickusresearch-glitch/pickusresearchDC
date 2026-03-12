@@ -69,6 +69,12 @@
         "author": {"@type": "Person", "name": "John A. Hart", "jobTitle": "Freelance Writer, United Kingdom"},
         "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
         "reviewBody": "Highly professional. Successfully located a rare 1968 photograph with consistent progress updates throughout."
+      },
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Quineen", "worksFor": {"@type": "Organization", "name": "Poppy's Preservation of Art"}},
+        "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+        "reviewBody": "Outstanding work on copyright research for European vintage posters. Detailed, clear, and completed ahead of schedule. The 12-page document provided everything I needed."
       }
     ]
   }
@@ -343,6 +349,7 @@
     .service-list li::before {
       content: '→'; color: var(--gold); font-weight: 700; flex-shrink: 0; margin-top: .05rem;
     }
+    .service-list li strong { font-weight: 600; display: inline; }
     .service-badge {
       display: inline-block; margin-top: 1.25rem;
       font-size: .7rem; font-weight: 700; letter-spacing: .08em;
@@ -434,7 +441,7 @@
     #testimonials .section-header p { color: rgba(255,255,255,.6); }
     #testimonials .label { color: var(--gold-l); }
     .testimonials-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;
     }
     .testimonial-card {
       background: rgba(255,255,255,.06);
@@ -463,7 +470,10 @@
     .attr-name { color: var(--white); font-weight: 600; font-size: .92rem; }
     .attr-title { color: rgba(255,255,255,.5); font-size: .78rem; }
 
-    @media (max-width: 720px) {
+    @media (max-width: 960px) {
+      .testimonials-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
       .testimonials-grid { grid-template-columns: 1fr; }
     }
 
@@ -735,7 +745,7 @@
         <h3>Archival &amp; Historical Research</h3>
         <p class="service-desc">Physical and digital access to non-digitized primary source collections across Washington's premier repositories and partner institutions nationwide.</p>
         <ul class="service-list" aria-label="Archival research services">
-          <li>On-site research at the <strong>National Archives</strong> and <strong>Library of Congress</strong></li>
+          <li>On-site research at the National Archives and Library of Congress</li>
           <li>CIA FOIA collections — Cold War, Soviet intelligence, Rosenberg case</li>
           <li>Microfilm access to 2,000+ newspaper databases, including Russian-language press</li>
           <li>Finding aids for non-digitized collections (photographs, manuscripts, newsreels)</li>
@@ -752,11 +762,11 @@
         <h3>OSINT &amp; Competitive Intelligence</h3>
         <p class="service-desc">Modern open-source intelligence tradecraft for corporate, legal, and policy clients — from entity profiling to geopolitical risk analysis, powered by AI/ML platforms.</p>
         <ul class="service-list" aria-label="OSINT and intelligence services">
-          <li>Entity profiling, background research, and <strong>vetting reports</strong></li>
+          <li>Entity profiling, background research, and vetting reports</li>
           <li>Influence network mapping and stakeholder analysis</li>
           <li>Competitive intelligence — market participants, emerging players, risk profiles</li>
           <li>Geopolitical and political risk assessment for investors and decision-makers</li>
-          <li><strong>Russian-language OSINT</strong> — social media, press, official sources</li>
+          <li>Russian-language OSINT — social media, press, official sources</li>
           <li>AI-enabled social media analysis and digital footprint research</li>
           <li>Due diligence backgrounders for legal, financial, and M&amp;A contexts</li>
         </ul>
@@ -950,6 +960,18 @@
           </div>
         </div>
       </div>
+
+      <div class="testimonial-card">
+        <blockquote>Pickus Research Services delivered outstanding work on copyright research for European vintage posters. Micah's report was detailed, clear, and completed ahead of schedule. The 12-page document provided everything I needed, and I would happily work with them again.</blockquote>
+        <div class="testimonial-attr">
+          <div class="attr-avatar" aria-hidden="true">Q</div>
+          <div>
+            <div class="attr-name">Quineen</div>
+            <div class="attr-title">Poppy's Preservation of Art</div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
