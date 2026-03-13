@@ -6,8 +6,8 @@
 
   <!-- ═══ SEO ═══════════════════════════════════════════════════════ -->
   <title>Pickus Research Services | Archival & OSINT Research | Washington, D.C.</title>
-  <meta name="description" content="Expert archival research at the National Archives and Library of Congress, plus open-source intelligence (OSINT), competitive intelligence, and Russian-language research. Based in Washington, D.C. Clients include the Washington Post, CNAS, journalists, and documentary researchers worldwide.">
-  <meta name="keywords" content="archival research Washington DC, National Archives research service, Library of Congress research, OSINT research, competitive intelligence analyst DC, Russian language research, Cold War research, freelance researcher Washington DC, open source intelligence consultant, due diligence research">
+  <meta name="description" content="Expert archival research at the National Archives, Library of Congress, Georgetown's Booth Family Center for Special Collections, and Smithsonian Libraries — plus open-source intelligence (OSINT), competitive intelligence, and Russian-language research. Based in Washington, D.C.">
+  <meta name="keywords" content="archival research Washington DC, National Archives research service, Library of Congress research, OSINT research, competitive intelligence analyst DC, Russian language research, Cold War research, freelance researcher Washington DC, open source intelligence consultant, due diligence research, Georgetown special collections research, Smithsonian library research">
   <meta name="robots" content="index, follow">
   <meta name="google-site-verification" content="eurKIeg3UMR-TuPKtcEabfkQRVYpJUULiyF15pEU_1A" />
   <link rel="canonical" href="https://pickusresearch-glitch.github.io/pickusresearchDC/">
@@ -25,8 +25,8 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Pickus Research Services",
-    "description": "Expert archival research at the National Archives and Library of Congress, open-source intelligence (OSINT), competitive intelligence, and Russian-language research services based in Washington, D.C.",
-    "url": "https://pickusresearch.com",
+    "description": "Expert archival research at the National Archives, Library of Congress, Georgetown's Booth Family Center for Special Collections, and Smithsonian Libraries — plus open-source intelligence (OSINT), competitive intelligence, and Russian-language research services based in Washington, D.C.",
+    "url": "https://pickusresearch-glitch.github.io/pickusresearchDC",
     "email": "pickusresearch@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -46,17 +46,6 @@
     },
     "areaServed": {"@type": "City", "name": "Washington, D.C."},
     "serviceType": ["Archival Research", "OSINT", "Competitive Intelligence", "Russian Translation", "Due Diligence Research"],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Research Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Archival Research at the National Archives and Library of Congress"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Open Source Intelligence (OSINT)"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Competitive Intelligence and Entity Profiling"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Russian-Language Research and Translation"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Due Diligence and Background Research"}}
-      ]
-    },
     "review": [
       {
         "@type": "Review",
@@ -85,21 +74,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
 
-  <!-- ═══ Styles ════════════════════════════════════════════════════ -->
   <style>
-    /* ── Reset & Base ─────────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; font-size: 16px; }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #F9F8F5;
-      color: #1A1A2E;
-      line-height: 1.7;
-    }
+    body { font-family: 'Inter', sans-serif; background: #F9F8F5; color: #1A1A2E; line-height: 1.7; }
     img { max-width: 100%; display: block; }
     a { color: inherit; text-decoration: none; }
 
-    /* ── Variables ────────────────────────────────────────────────── */
     :root {
       --navy:   #1F3864;
       --navy-d: #162848;
@@ -114,93 +95,42 @@
       --max:    1100px;
     }
 
-    /* ── Typography ───────────────────────────────────────────────── */
     h1,h2,h3,h4 { font-weight: 700; line-height: 1.25; color: var(--navy); }
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
     h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); }
     h3 { font-size: 1.15rem; }
     p  { color: #374151; }
     .serif { font-family: 'Lora', Georgia, serif; }
-    .label {
-      font-size: .72rem; font-weight: 700; letter-spacing: .1em;
-      text-transform: uppercase; color: var(--gold);
-    }
+    .label { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
 
-    /* ── Layout ───────────────────────────────────────────────────── */
     .container { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; }
     section { padding: 5rem 0; }
     section:nth-child(even) { background: #EFEDE7; }
 
-    /* ── Buttons ──────────────────────────────────────────────────── */
-    .btn {
-      display: inline-block; padding: .75rem 1.75rem;
-      border-radius: 6px; font-weight: 600; font-size: .9rem;
-      transition: all .2s ease; cursor: pointer; border: none;
-    }
-    .btn-primary {
-      background: var(--gold); color: var(--white);
-    }
+    .btn { display: inline-block; padding: .75rem 1.75rem; border-radius: 6px; font-weight: 600; font-size: .9rem; transition: all .2s ease; cursor: pointer; border: none; }
+    .btn-primary { background: var(--gold); color: var(--white); }
     .btn-primary:hover { background: var(--gold-l); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(184,148,42,.35); }
-    .btn-outline {
-      background: transparent; color: var(--white);
-      border: 2px solid rgba(255,255,255,.6);
-    }
+    .btn-outline { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,.6); }
     .btn-outline:hover { background: rgba(255,255,255,.1); border-color: var(--white); }
     .btn-navy { background: var(--navy); color: var(--white); }
     .btn-navy:hover { background: var(--navy-d); transform: translateY(-1px); }
 
-    /* ══════════════════════════════════════════════════════════════
-       NAV
-    ══════════════════════════════════════════════════════════════ */
-    #nav {
-      position: sticky; top: 0; z-index: 100;
-      background: var(--navy);
-      box-shadow: 0 2px 12px rgba(0,0,0,.25);
-    }
-    .nav-inner {
-      max-width: var(--max); margin: 0 auto;
-      padding: 0 1.5rem;
-      display: flex; align-items: center; justify-content: space-between;
-      height: 62px;
-    }
-    .nav-logo {
-      font-weight: 700; font-size: 1rem; color: var(--white);
-      letter-spacing: .02em;
-    }
+    /* NAV */
+    #nav { position: sticky; top: 0; z-index: 100; background: var(--navy); box-shadow: 0 2px 12px rgba(0,0,0,.25); }
+    .nav-inner { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 62px; }
+    .nav-logo { font-weight: 700; font-size: 1rem; color: var(--white); letter-spacing: .02em; }
     .nav-logo span { color: var(--gold-l); }
-    .nav-links {
-      display: flex; align-items: center; gap: 2rem;
-      list-style: none;
-    }
-    .nav-links a {
-      color: rgba(255,255,255,.82); font-size: .88rem; font-weight: 500;
-      transition: color .15s;
-    }
+    .nav-links { display: flex; align-items: center; gap: 2rem; list-style: none; }
+    .nav-links a { color: rgba(255,255,255,.82); font-size: .88rem; font-weight: 500; transition: color .15s; }
     .nav-links a:hover { color: var(--white); }
-    .nav-links .cta a {
-      background: var(--gold); color: var(--white);
-      padding: .45rem 1.1rem; border-radius: 5px;
-    }
+    .nav-links .cta a { background: var(--gold); color: var(--white); padding: .45rem 1.1rem; border-radius: 5px; }
     .nav-links .cta a:hover { background: var(--gold-l); }
-
-    /* Mobile nav toggle */
-    .nav-toggle {
-      display: none; flex-direction: column; gap: 5px; cursor: pointer;
-      padding: 4px;
-    }
-    .nav-toggle span {
-      display: block; width: 24px; height: 2px;
-      background: var(--white); border-radius: 2px;
-      transition: all .25s;
-    }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+    .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: all .25s; }
     #nav-check { display: none; }
     @media (max-width: 720px) {
       .nav-toggle { display: flex; }
-      .nav-links {
-        display: none; position: absolute; top: 62px; left: 0; right: 0;
-        background: var(--navy-d); flex-direction: column; align-items: flex-start;
-        gap: 0; padding: .5rem 0; box-shadow: 0 8px 24px rgba(0,0,0,.3);
-      }
+      .nav-links { display: none; position: absolute; top: 62px; left: 0; right: 0; background: var(--navy-d); flex-direction: column; align-items: flex-start; gap: 0; padding: .5rem 0; box-shadow: 0 8px 24px rgba(0,0,0,.3); }
       .nav-links li { width: 100%; }
       .nav-links a { display: block; padding: .8rem 1.5rem; }
       #nav-check:checked ~ .nav-links { display: flex; }
@@ -209,438 +139,152 @@
       #nav-check:checked ~ .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
     }
 
-    /* ══════════════════════════════════════════════════════════════
-       HERO
-    ══════════════════════════════════════════════════════════════ */
-    #hero {
-      background: linear-gradient(135deg, #162848 0%, #1F3864 55%, #2a4a7f 100%);
-      padding: 6rem 0 5rem;
-      position: relative; overflow: hidden;
-    }
-    #hero::before {
-      content: '';
-      position: absolute; inset: 0;
-      background-image:
-        radial-gradient(circle at 20% 50%, rgba(184,148,42,.08) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(255,255,255,.04) 0%, transparent 40%);
-      pointer-events: none;
-    }
-    .hero-inner {
-      max-width: var(--max); margin: 0 auto; padding: 0 1.5rem;
-      display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;
-    }
-    .hero-eyebrow {
-      display: inline-block; margin-bottom: 1rem;
-      font-size: .72rem; font-weight: 700; letter-spacing: .12em;
-      text-transform: uppercase; color: var(--gold-l);
-      border-bottom: 2px solid var(--gold); padding-bottom: 3px;
-    }
-    #hero h1 {
-      color: var(--white); margin-bottom: 1.1rem;
-      font-size: clamp(2rem, 4vw, 2.9rem);
-    }
+    /* HERO */
+    #hero { background: linear-gradient(135deg, #162848 0%, #1F3864 55%, #2a4a7f 100%); padding: 6rem 0 5rem; position: relative; overflow: hidden; }
+    #hero::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 20% 50%, rgba(184,148,42,.08) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(255,255,255,.04) 0%, transparent 40%); pointer-events: none; }
+    .hero-inner { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    .hero-eyebrow { display: inline-block; margin-bottom: 1rem; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-l); border-bottom: 2px solid var(--gold); padding-bottom: 3px; }
+    #hero h1 { color: var(--white); margin-bottom: 1.1rem; font-size: clamp(2rem, 4vw, 2.9rem); }
     #hero h1 em { font-style: normal; color: var(--gold-l); }
-    #hero p {
-      color: rgba(255,255,255,.80); font-size: 1.05rem;
-      margin-bottom: 2rem; max-width: 480px; line-height: 1.75;
-    }
+    #hero p { color: rgba(255,255,255,.80); font-size: 1.05rem; margin-bottom: 2rem; max-width: 480px; line-height: 1.75; }
     .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
-    .hero-card {
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: var(--radius);
-      padding: 2rem;
-    }
+    .hero-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius); padding: 2rem; }
     .hero-card h3 { color: var(--white); margin-bottom: 1rem; font-size: 1rem; }
-    .hero-stat {
-      display: flex; flex-direction: column; gap: 1rem;
-    }
-    .hero-stat-item {
-      display: flex; align-items: flex-start; gap: .75rem;
-    }
-    .hero-stat-icon {
-      width: 36px; height: 36px; min-width: 36px;
-      background: rgba(184,148,42,.18);
-      border-radius: 50%; display: flex; align-items: center; justify-content: center;
-      font-size: 1rem;
-    }
+    .hero-stat { display: flex; flex-direction: column; gap: 1rem; }
+    .hero-stat-item { display: flex; align-items: flex-start; gap: .75rem; }
+    .hero-stat-icon { width: 36px; height: 36px; min-width: 36px; background: rgba(184,148,42,.18); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; }
     .hero-stat-item strong { display: block; color: var(--white); font-size: .92rem; }
     .hero-stat-item span { color: rgba(255,255,255,.6); font-size: .8rem; }
+    @media (max-width: 820px) { .hero-inner { grid-template-columns: 1fr; gap: 2.5rem; } .hero-card { display: none; } }
 
-    @media (max-width: 820px) {
-      .hero-inner { grid-template-columns: 1fr; gap: 2.5rem; }
-      .hero-card { display: none; }
-    }
-
-    /* ══════════════════════════════════════════════════════════════
-       TRUST BAR
-    ══════════════════════════════════════════════════════════════ */
-    #trust {
-      background: var(--navy-d); padding: 1.5rem 0;
-    }
-    .trust-inner {
-      max-width: var(--max); margin: 0 auto; padding: 0 1.5rem;
-      display: flex; align-items: center; gap: 1.5rem;
-      flex-wrap: wrap; justify-content: center;
-    }
-    .trust-label {
-      font-size: .72rem; font-weight: 700; letter-spacing: .1em;
-      text-transform: uppercase; color: rgba(255,255,255,.45);
-      white-space: nowrap;
-    }
+    /* TRUST BAR */
+    #trust { background: var(--navy-d); padding: 1.5rem 0; }
+    .trust-inner { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; justify-content: center; }
+    .trust-label { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.45); white-space: nowrap; }
     .trust-divider { width: 1px; height: 20px; background: rgba(255,255,255,.2); }
-    .trust-items {
-      display: flex; gap: 2rem; flex-wrap: wrap; align-items: center;
-    }
-    .trust-item {
-      color: rgba(255,255,255,.70); font-size: .82rem; font-weight: 500;
-      white-space: nowrap;
-    }
+    .trust-items { display: flex; gap: 2rem; flex-wrap: wrap; align-items: center; }
+    .trust-item { color: rgba(255,255,255,.70); font-size: .82rem; font-weight: 500; white-space: nowrap; }
 
-    /* ══════════════════════════════════════════════════════════════
-       SERVICES
-    ══════════════════════════════════════════════════════════════ */
+    /* SERVICES */
     #services { background: var(--light); }
     .section-header { text-align: center; margin-bottom: 3.5rem; }
     .section-header .label { display: block; margin-bottom: .6rem; }
     .section-header h2 { margin-bottom: .75rem; }
     .section-header p { color: var(--gray); max-width: 560px; margin: 0 auto; }
-
-    .services-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;
-    }
-    .service-card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 2.25rem;
-      box-shadow: var(--shadow);
-      transition: transform .2s, box-shadow .2s;
-    }
-    .service-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 10px 36px rgba(31,56,100,.14);
-    }
-    .service-card.featured {
-      border-color: var(--gold);
-      border-top: 4px solid var(--gold);
-    }
-    .service-icon {
-      width: 52px; height: 52px;
-      background: rgba(31,56,100,.08);
-      border-radius: var(--radius);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.6rem; margin-bottom: 1.25rem;
-    }
-    .service-card h3 {
-      font-size: 1.2rem; margin-bottom: .5rem; color: var(--navy);
-    }
-    .service-card .service-desc {
-      color: var(--gray); font-size: .9rem; margin-bottom: 1.25rem;
-      line-height: 1.65;
-    }
-    .service-list {
-      list-style: none; display: flex; flex-direction: column; gap: .55rem;
-    }
-    .service-list li {
-      font-size: .88rem; color: #374151;
-      display: flex; align-items: flex-start; gap: .5rem;
-    }
-    .service-list li::before {
-      content: '→'; color: var(--gold); font-weight: 700; flex-shrink: 0; margin-top: .05rem;
-    }
+    .services-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .service-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 2.25rem; box-shadow: var(--shadow); transition: transform .2s, box-shadow .2s; }
+    .service-card:hover { transform: translateY(-3px); box-shadow: 0 10px 36px rgba(31,56,100,.14); }
+    .service-card.featured { border-color: var(--gold); border-top: 4px solid var(--gold); }
+    .service-icon { width: 52px; height: 52px; background: rgba(31,56,100,.08); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 1.25rem; }
+    .service-card h3 { font-size: 1.2rem; margin-bottom: .5rem; color: var(--navy); }
+    .service-card .service-desc { color: var(--gray); font-size: .9rem; margin-bottom: 1.25rem; line-height: 1.65; }
+    .service-list { list-style: none; display: flex; flex-direction: column; gap: .55rem; }
+    .service-list li { font-size: .88rem; color: #374151; display: flex; align-items: flex-start; gap: .5rem; }
+    .service-list li::before { content: '→'; color: var(--gold); font-weight: 700; flex-shrink: 0; margin-top: .05rem; }
     .service-list li strong { font-weight: 600; display: inline; }
-    .service-badge {
-      display: inline-block; margin-top: 1.25rem;
-      font-size: .7rem; font-weight: 700; letter-spacing: .08em;
-      text-transform: uppercase; color: var(--gold);
-      background: rgba(184,148,42,.1); border-radius: 4px; padding: .25rem .65rem;
-    }
+    .service-badge { display: inline-block; margin-top: 1.25rem; font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); background: rgba(184,148,42,.1); border-radius: 4px; padding: .25rem .65rem; }
+    @media (max-width: 720px) { .services-grid { grid-template-columns: 1fr; } }
 
-    @media (max-width: 720px) {
-      .services-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ══════════════════════════════════════════════════════════════
-       WHY PRS
-    ══════════════════════════════════════════════════════════════ */
+    /* WHY PRS */
     #why { background: #EFEDE7; }
-    .why-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;
-    }
-    .why-item {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 1.75rem;
-      border: 1px solid var(--border);
-    }
-    .why-num {
-      font-size: 2.2rem; font-weight: 700; color: rgba(31,56,100,.12);
-      font-family: 'Lora', Georgia, serif; line-height: 1;
-      margin-bottom: .5rem;
-    }
+    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+    .why-item { background: var(--white); border-radius: var(--radius); padding: 1.75rem; border: 1px solid var(--border); }
+    .why-num { font-size: 2.2rem; font-weight: 700; color: rgba(31,56,100,.12); font-family: 'Lora', Georgia, serif; line-height: 1; margin-bottom: .5rem; }
     .why-item h3 { font-size: 1rem; margin-bottom: .5rem; color: var(--navy); }
     .why-item p { font-size: .88rem; color: var(--gray); line-height: 1.6; }
+    @media (max-width: 820px) { .why-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 520px) { .why-grid { grid-template-columns: 1fr; } }
 
-    @media (max-width: 820px) {
-      .why-grid { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 520px) {
-      .why-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ══════════════════════════════════════════════════════════════
-       EXPERIENCE / CREDENTIALS
-    ══════════════════════════════════════════════════════════════ */
+    /* EXPERIENCE */
     #experience { background: var(--light); }
-    .exp-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;
-    }
+    .exp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
     .exp-list { display: flex; flex-direction: column; gap: 1.25rem; }
-    .exp-item {
-      display: flex; gap: 1rem; align-items: flex-start;
-      padding-bottom: 1.25rem;
-      border-bottom: 1px solid var(--border);
-    }
+    .exp-item { display: flex; gap: 1rem; align-items: flex-start; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border); }
     .exp-item:last-child { border-bottom: none; padding-bottom: 0; }
-    .exp-dot {
-      width: 10px; height: 10px; min-width: 10px; border-radius: 50%;
-      background: var(--gold); margin-top: .55rem;
-    }
+    .exp-dot { width: 10px; height: 10px; min-width: 10px; border-radius: 50%; background: var(--gold); margin-top: .55rem; }
     .exp-item h4 { font-size: .95rem; color: var(--navy); margin-bottom: .2rem; }
     .exp-item p { font-size: .83rem; color: var(--gray); line-height: 1.5; }
-
     .exp-topics { margin-top: 0; }
-    .exp-topics h3 { font-size: 1rem; margin-bottom: 1rem; color: var(--navy); }
-    .topic-tags {
-      display: flex; flex-wrap: wrap; gap: .5rem;
-    }
-    .tag {
-      font-size: .78rem; font-weight: 500;
-      background: rgba(31,56,100,.07);
-      color: var(--navy);
-      border-radius: 4px; padding: .3rem .75rem;
-      border: 1px solid rgba(31,56,100,.12);
-    }
+    .topic-tags { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .tag { font-size: .78rem; font-weight: 500; background: rgba(31,56,100,.07); color: var(--navy); border-radius: 4px; padding: .3rem .75rem; border: 1px solid rgba(31,56,100,.12); }
+    .exp-section-label { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; display: block; }
+    @media (max-width: 820px) { .exp-grid { grid-template-columns: 1fr; } }
 
-    .exp-section-label {
-      font-size: .72rem; font-weight: 700; letter-spacing: .1em;
-      text-transform: uppercase; color: var(--gold);
-      margin-bottom: 1rem; display: block;
-    }
-
-    @media (max-width: 820px) {
-      .exp-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ══════════════════════════════════════════════════════════════
-       TESTIMONIALS
-    ══════════════════════════════════════════════════════════════ */
+    /* TESTIMONIALS */
     #testimonials { background: var(--navy); }
     #testimonials .section-header h2 { color: var(--white); }
     #testimonials .section-header p { color: rgba(255,255,255,.6); }
     #testimonials .label { color: var(--gold-l); }
-    .testimonials-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;
-    }
-    .testimonial-card {
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: var(--radius);
-      padding: 2rem;
-    }
-    .testimonial-card blockquote {
-      font-family: 'Lora', Georgia, serif;
-      font-style: italic; font-size: 1.05rem;
-      color: rgba(255,255,255,.88); line-height: 1.75;
-      margin-bottom: 1.25rem;
-    }
-    .testimonial-card blockquote::before {
-      content: '\201C';
-      font-size: 3rem; line-height: 0; vertical-align: -.5rem;
-      color: var(--gold); margin-right: .2rem; font-style: normal;
-    }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+    .testimonial-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius); padding: 2rem; }
+    .testimonial-card blockquote { font-family: 'Lora', Georgia, serif; font-style: italic; font-size: 1.05rem; color: rgba(255,255,255,.88); line-height: 1.75; margin-bottom: 1.25rem; }
+    .testimonial-card blockquote::before { content: '\201C'; font-size: 3rem; line-height: 0; vertical-align: -.5rem; color: var(--gold); margin-right: .2rem; font-style: normal; }
     .testimonial-attr { display: flex; align-items: center; gap: .75rem; }
-    .attr-avatar {
-      width: 40px; height: 40px; border-radius: 50%;
-      background: rgba(184,148,42,.25);
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 700; color: var(--gold-l); font-size: .9rem;
-    }
+    .attr-avatar { width: 40px; height: 40px; border-radius: 50%; background: rgba(184,148,42,.25); display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--gold-l); font-size: .9rem; }
     .attr-name { color: var(--white); font-weight: 600; font-size: .92rem; }
     .attr-title { color: rgba(255,255,255,.5); font-size: .78rem; }
+    @media (max-width: 960px) { .testimonials-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) { .testimonials-grid { grid-template-columns: 1fr; } }
 
-    @media (max-width: 960px) {
-      .testimonials-grid { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 600px) {
-      .testimonials-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ══════════════════════════════════════════════════════════════
-       ABOUT
-    ══════════════════════════════════════════════════════════════ */
+    /* ABOUT */
     #about { background: #EFEDE7; }
-    .about-grid {
-      display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: start;
-    }
-    .about-sidebar {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 2rem;
-      box-shadow: var(--shadow);
-    }
-    .about-avatar {
-      width: 80px; height: 80px; border-radius: 50%;
-      background: var(--navy);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.8rem; font-weight: 700; color: var(--white);
-      font-family: 'Lora', Georgia, serif;
-      margin-bottom: 1rem;
-    }
+    .about-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 4rem; align-items: start; }
+    .about-sidebar { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; box-shadow: var(--shadow); }
+    .about-avatar { width: 80px; height: 80px; border-radius: 50%; background: var(--navy); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 700; color: var(--white); font-family: 'Lora', Georgia, serif; margin-bottom: 1rem; }
     .about-sidebar h3 { font-size: 1.1rem; margin-bottom: .2rem; color: var(--navy); }
     .about-sidebar .about-title { font-size: .85rem; color: var(--gray); margin-bottom: 1.25rem; }
     .cred-list { display: flex; flex-direction: column; gap: .65rem; list-style: none; }
-    .cred-list li {
-      font-size: .83rem; color: #374151;
-      display: flex; align-items: flex-start; gap: .5rem;
-    }
-    .cred-list li .cred-icon {
-      color: var(--gold); flex-shrink: 0; font-size: .9rem; margin-top: .05rem;
-    }
-
+    .cred-list li { font-size: .83rem; color: #374151; display: flex; align-items: flex-start; gap: .5rem; }
+    .cred-list li .cred-icon { color: var(--gold); flex-shrink: 0; font-size: .9rem; margin-top: .05rem; }
     .about-text h2 { margin-bottom: 1rem; }
     .about-text p { color: #374151; margin-bottom: 1rem; line-height: 1.8; }
     .about-text p:last-child { margin-bottom: 0; }
+    @media (max-width: 820px) { .about-grid { grid-template-columns: 1fr; } }
 
-    @media (max-width: 820px) {
-      .about-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ══════════════════════════════════════════════════════════════
-       FAQ
-    ══════════════════════════════════════════════════════════════ */
+    /* FAQ */
     #faq { background: var(--light); }
     .faq-list { max-width: 760px; margin: 0 auto; }
-    .faq-item {
-      border-bottom: 1px solid var(--border); padding: 1.25rem 0;
-    }
-    .faq-item summary {
-      font-weight: 600; font-size: .96rem; cursor: pointer;
-      color: var(--navy); list-style: none;
-      display: flex; justify-content: space-between; align-items: center;
-    }
-    .faq-item summary::after {
-      content: '+'; font-size: 1.3rem; color: var(--gold); font-weight: 400;
-      transition: transform .2s; flex-shrink: 0;
-    }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item summary { font-weight: 600; font-size: .96rem; cursor: pointer; color: var(--navy); list-style: none; display: flex; justify-content: space-between; align-items: center; }
+    .faq-item summary::after { content: '+'; font-size: 1.3rem; color: var(--gold); font-weight: 400; transition: transform .2s; flex-shrink: 0; }
     .faq-item[open] summary::after { content: '−'; }
-    .faq-item p {
-      font-size: .9rem; color: #374151; line-height: 1.75;
-      padding-top: .75rem;
-    }
+    .faq-item p { font-size: .9rem; color: #374151; line-height: 1.75; padding-top: .75rem; }
 
-    /* ══════════════════════════════════════════════════════════════
-       CONTACT
-    ══════════════════════════════════════════════════════════════ */
+    /* CONTACT */
     #contact { background: var(--navy); padding: 5rem 0; }
-    .contact-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;
-    }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
     .contact-info h2 { color: var(--white); margin-bottom: 1rem; }
     .contact-info p { color: rgba(255,255,255,.7); margin-bottom: 1.5rem; line-height: 1.75; }
-    .contact-detail {
-      display: flex; align-items: center; gap: .75rem;
-      color: rgba(255,255,255,.75); font-size: .9rem; margin-bottom: .75rem;
-    }
+    .contact-detail { display: flex; align-items: center; gap: .75rem; color: rgba(255,255,255,.75); font-size: .9rem; margin-bottom: .75rem; }
     .contact-detail a { color: var(--gold-l); }
     .contact-detail a:hover { text-decoration: underline; }
-
-    .contact-form {
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: var(--radius); padding: 2rem;
-    }
+    .contact-form { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius); padding: 2rem; }
     .form-group { margin-bottom: 1.1rem; }
-    .form-group label {
-      display: block; font-size: .78rem; font-weight: 600;
-      color: rgba(255,255,255,.6); margin-bottom: .4rem; letter-spacing: .04em;
-      text-transform: uppercase;
-    }
-    .form-group input,
-    .form-group textarea,
-    .form-group select {
-      width: 100%; background: rgba(255,255,255,.08);
-      border: 1px solid rgba(255,255,255,.2); border-radius: 6px;
-      color: var(--white); font-family: 'Inter', sans-serif;
-      font-size: .9rem; padding: .65rem .9rem;
-      transition: border-color .15s;
-    }
-    .form-group input:focus,
-    .form-group textarea:focus,
-    .form-group select:focus {
-      outline: none; border-color: var(--gold-l);
-    }
-    .form-group input::placeholder,
-    .form-group textarea::placeholder { color: rgba(255,255,255,.3); }
+    .form-group label { display: block; font-size: .78rem; font-weight: 600; color: rgba(255,255,255,.6); margin-bottom: .4rem; letter-spacing: .04em; text-transform: uppercase; }
+    .form-group input, .form-group textarea, .form-group select { width: 100%; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.2); border-radius: 6px; color: var(--white); font-family: 'Inter', sans-serif; font-size: .9rem; padding: .65rem .9rem; transition: border-color .15s; }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: var(--gold-l); }
+    .form-group input::placeholder, .form-group textarea::placeholder { color: rgba(255,255,255,.3); }
     .form-group textarea { resize: vertical; min-height: 100px; }
     .form-group select option { background: var(--navy-d); color: var(--white); }
-
-    .form-submit {
-      width: 100%; padding: .85rem;
-      background: var(--gold); color: var(--white);
-      border: none; border-radius: 6px;
-      font-family: 'Inter', sans-serif; font-size: .95rem; font-weight: 700;
-      cursor: pointer; transition: background .2s, transform .15s;
-    }
+    .form-submit { width: 100%; padding: .85rem; background: var(--gold); color: var(--white); border: none; border-radius: 6px; font-family: 'Inter', sans-serif; font-size: .95rem; font-weight: 700; cursor: pointer; transition: background .2s, transform .15s; }
     .form-submit:hover { background: var(--gold-l); transform: translateY(-1px); }
+    @media (max-width: 820px) { .contact-grid { grid-template-columns: 1fr; } }
 
-    @media (max-width: 820px) {
-      .contact-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ══════════════════════════════════════════════════════════════
-       FOOTER
-    ══════════════════════════════════════════════════════════════ */
-    footer {
-      background: #0E1E3B;
-      padding: 2.25rem 0;
-      text-align: center;
-    }
-    footer p {
-      color: rgba(255,255,255,.35); font-size: .8rem;
-    }
-    footer a { color: rgba(255,255,255,.45); }
-    footer a:hover { color: var(--gold-l); }
-    .footer-inner {
-      max-width: var(--max); margin: 0 auto; padding: 0 1.5rem;
-      display: flex; justify-content: space-between; align-items: center;
-      flex-wrap: wrap; gap: 1rem;
-    }
+    /* FOOTER */
+    footer { background: #0E1E3B; padding: 2.25rem 0; text-align: center; }
+    footer p { color: rgba(255,255,255,.35); font-size: .8rem; }
+    .footer-inner { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
     .footer-links { display: flex; gap: 1.5rem; }
     .footer-links a { color: rgba(255,255,255,.4); font-size: .8rem; }
     .footer-links a:hover { color: var(--gold-l); }
 
-    /* ══════════════════════════════════════════════════════════════
-       MISC UTILITIES
-    ══════════════════════════════════════════════════════════════ */
     .text-center { text-align: center; }
     .mt-2 { margin-top: 2rem; }
-    .mt-3 { margin-top: 3rem; }
-    .divider {
-      width: 48px; height: 3px;
-      background: var(--gold); border-radius: 2px;
-      margin: 1rem auto 0;
-    }
+    .divider { width: 48px; height: 3px; background: var(--gold); border-radius: 2px; margin: 1rem auto 0; }
   </style>
 </head>
-
 <body>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     NAV
-══════════════════════════════════════════════════════════════════ -->
 <nav id="nav" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
     <a class="nav-logo" href="#hero">Pickus <span>Research</span> Services</a>
@@ -658,15 +302,12 @@
   </div>
 </nav>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     HERO
-══════════════════════════════════════════════════════════════════ -->
 <header id="hero" role="banner">
   <div class="hero-inner">
     <div class="hero-copy">
       <span class="hero-eyebrow">Washington, D.C. Research Services</span>
       <h1>From the Archives to<br><em>Open-Source Intelligence</em></h1>
-      <p>Expert archival research at the National Archives and Library of Congress — combined with AI-powered OSINT and competitive intelligence. Russian-language capable. Serving journalists, filmmakers, lawyers, academics, and corporate clients since 2019.</p>
+      <p>Expert archival research across Washington's premier repositories — combined with AI-powered OSINT and competitive intelligence. Russian-language capable. Serving journalists, filmmakers, lawyers, academics, and corporate clients since 2019.</p>
       <div class="hero-cta">
         <a href="#contact" class="btn btn-primary">Get a Free Consultation</a>
         <a href="#services" class="btn btn-outline">View Services</a>
@@ -679,7 +320,7 @@
           <div class="hero-stat-icon">🏛️</div>
           <div>
             <strong>On-site Archives Access</strong>
-            <span>National Archives, Library of Congress, JFK Library, Duke Rubenstein</span>
+            <span>National Archives, Library of Congress, Georgetown, Smithsonian, DC Public Library</span>
           </div>
         </div>
         <div class="hero-stat-item">
@@ -708,26 +349,20 @@
   </div>
 </header>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     TRUST BAR
-══════════════════════════════════════════════════════════════════ -->
 <div id="trust" role="complementary" aria-label="Client and institutional affiliations">
   <div class="trust-inner">
     <span class="trust-label">Trusted by</span>
     <div class="trust-divider" aria-hidden="true"></div>
     <div class="trust-items">
       <span class="trust-item">The Washington Post</span>
-      <span class="trust-item">Independent Researchers &amp; Documentary Filmmakers</span>
       <span class="trust-item">Center for a New American Security</span>
       <span class="trust-item">Washington Institute for Near East Policy</span>
       <span class="trust-item">Duke University (Matlock Fellow)</span>
+      <span class="trust-item">Independent Researchers &amp; Documentary Filmmakers</span>
     </div>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     SERVICES
-══════════════════════════════════════════════════════════════════ -->
 <section id="services" aria-labelledby="services-heading">
   <div class="container">
     <div class="section-header">
@@ -736,18 +371,17 @@
       <p>PRS combines deep archival expertise with modern open-source intelligence — so whether your project lives in a 1960s microfilm reel or a live social media feed, we can dig it out.</p>
       <div class="divider" aria-hidden="true"></div>
     </div>
-
     <div class="services-grid">
-
-      <!-- Archival -->
       <article class="service-card featured">
         <div class="service-icon" aria-hidden="true">🏛️</div>
         <h3>Archival &amp; Historical Research</h3>
         <p class="service-desc">Physical and digital access to non-digitized primary source collections across Washington's premier repositories and partner institutions nationwide.</p>
         <ul class="service-list" aria-label="Archival research services">
-          <li>On-site research at the National Archives and Library of Congress</li>
+          <li>On-site research at the National Archives, Library of Congress, Booth Family Center for Special Collections (Georgetown), Smithsonian Libraries, and DC Public Library's People's Archive</li>
           <li>CIA FOIA collections — Cold War, Soviet intelligence, Rosenberg case</li>
-          <li>Microfilm access to 2,000+ newspaper databases, including Russian-language press</li>
+          <li>Washington Star Photograph Collection — 1.3 million photographs from the 1930s through 1981</li>
+          <li>Access to subscription databases exclusively available within Library of Congress walls — including ProQuest Historical Newspapers, Nexis Uni, America's Historical Newspapers, and American Periodicals Series Online</li>
+          <li>Microfilm and digital access to Russian-language press and historical American newspapers</li>
           <li>Finding aids for non-digitized collections (photographs, manuscripts, newsreels)</li>
           <li>Universal Newsreel Library — motion picture footage including historical Olympics</li>
           <li>Remote Zoom research sessions at Duke's Rubenstein Library and other repositories</li>
@@ -756,7 +390,6 @@
         <span class="service-badge">Archival Access</span>
       </article>
 
-      <!-- OSINT / CI -->
       <article class="service-card featured">
         <div class="service-icon" aria-hidden="true">🔍</div>
         <h3>OSINT &amp; Competitive Intelligence</h3>
@@ -772,10 +405,8 @@
         </ul>
         <span class="service-badge">Intelligence Services</span>
       </article>
-
     </div>
 
-    <!-- Translation add-on -->
     <div style="margin-top:2rem; background:var(--white); border:1px solid var(--border); border-radius:var(--radius); padding:1.5rem 2rem; display:flex; gap:1.5rem; align-items:center; flex-wrap:wrap; box-shadow:var(--shadow);">
       <div style="font-size:2rem;" aria-hidden="true">🇷🇺</div>
       <div>
@@ -784,13 +415,9 @@
       </div>
       <a href="#contact" class="btn btn-navy" style="margin-left:auto; white-space:nowrap;">Request a Quote</a>
     </div>
-
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     WHY PRS
-══════════════════════════════════════════════════════════════════ -->
 <section id="why" aria-labelledby="why-heading">
   <div class="container">
     <div class="section-header">
@@ -798,7 +425,6 @@
       <h2 id="why-heading">Research That's Built Different</h2>
       <div class="divider" aria-hidden="true"></div>
     </div>
-
     <div class="why-grid">
       <div class="why-item">
         <div class="why-num">01</div>
@@ -807,8 +433,8 @@
       </div>
       <div class="why-item">
         <div class="why-num">02</div>
-        <h3>Rare D.C. Access</h3>
-        <p>On-site presence at the National Archives and Library of Congress means faster turnaround on physical collections that can't be reached remotely.</p>
+        <h3>Rare D.C. Repository Access</h3>
+        <p>On-site presence at the National Archives, Library of Congress, Georgetown's Booth Family Center for Special Collections, Smithsonian Libraries, and DC Public Library's People's Archive.</p>
       </div>
       <div class="why-item">
         <div class="why-num">03</div>
@@ -823,7 +449,7 @@
       <div class="why-item">
         <div class="why-num">05</div>
         <h3>Rigorous Academic Training</h3>
-        <p>MPP from the University of Maryland (GPA 3.9). Think tank experience at CNAS, WINEP, AEI, and the Institute for the Study of War sharpens every deliverable.</p>
+        <p>Master of Public Policy from the University of Maryland. Think tank experience at CNAS, WINEP, AEI, and the Institute for the Study of War sharpens every deliverable.</p>
       </div>
       <div class="why-item">
         <div class="why-num">06</div>
@@ -834,9 +460,6 @@
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     EXPERIENCE
-══════════════════════════════════════════════════════════════════ -->
 <section id="experience" aria-labelledby="experience-heading">
   <div class="container">
     <div class="section-header">
@@ -845,7 +468,6 @@
       <p>Six years of research for journalists, think tanks, technology firms, and academic institutions — across Cold War history, national security, and live intelligence problems.</p>
       <div class="divider" aria-hidden="true"></div>
     </div>
-
     <div class="exp-grid">
       <div>
         <span class="exp-section-label">Selected Engagements</span>
@@ -861,14 +483,14 @@
             <div class="exp-dot" aria-hidden="true"></div>
             <div>
               <h4>John Hart — Freelance Writer, United Kingdom</h4>
-              <p>Tracked down a rare 1968 photograph across multiple non-digitized Library of Congress collections, delivering the find with regular progress updates throughout — described by the client as "highly professional."</p>
+              <p>Tracked down a rare 1968 photograph across multiple non-digitized Library of Congress collections, delivering the find with regular progress updates throughout.</p>
             </div>
           </div>
           <div class="exp-item">
             <div class="exp-dot" aria-hidden="true"></div>
             <div>
-              <h4>Center for a New American Security (CNAS)</h4>
-              <p>Russian-language OSINT research for the Russia Strategic Initiative — Kremlin communications, military doctrine, and influence operations.</p>
+              <h4>Quineen — Poppy's Preservation of Art</h4>
+              <p>Copyright research for European vintage posters, delivered as a detailed 12-page report completed ahead of schedule.</p>
             </div>
           </div>
           <div class="exp-item">
@@ -881,16 +503,22 @@
           <div class="exp-item">
             <div class="exp-dot" aria-hidden="true"></div>
             <div>
+              <h4>Center for a New American Security (CNAS)</h4>
+              <p>Russian-language OSINT research for the Russia Strategic Initiative — Kremlin communications, military doctrine, and influence operations.</p>
+            </div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-dot" aria-hidden="true"></div>
+            <div>
               <h4>Washington Institute for Near East Policy &amp; AEI</h4>
-              <p>Research internships supporting senior fellows producing policy briefs and reports for U.S. government and international policymakers.</p>
+              <p>Research internships supporting senior fellows producing policy briefs for U.S. government and international policymakers.</p>
             </div>
           </div>
         </div>
       </div>
-
       <div>
         <span class="exp-section-label">Research Topics &amp; Subject Areas</span>
-        <div class="exp-topics mt-2">
+        <div class="exp-topics" style="margin-top:.5rem;">
           <div class="topic-tags">
             <span class="tag">Cold War Espionage</span>
             <span class="tag">Soviet Intelligence Operations</span>
@@ -899,6 +527,7 @@
             <span class="tag">Kremlin Strategic Communications</span>
             <span class="tag">Russian Influence Operations</span>
             <span class="tag">Middle East Security</span>
+            <span class="tag">Art &amp; Copyright Research</span>
             <span class="tag">Basketball Desegregation</span>
             <span class="tag">Battle of Gettysburg</span>
             <span class="tag">Historical Photograph Research</span>
@@ -907,15 +536,16 @@
             <span class="tag">Corporate Due Diligence</span>
             <span class="tag">Entity Profiling</span>
             <span class="tag">Competitive Intelligence</span>
-            <span class="tag">National Security Policy</span>
           </div>
         </div>
-
         <div style="margin-top:2.5rem;">
           <span class="exp-section-label">Institutions &amp; Repositories</span>
-          <div class="topic-tags mt-2">
+          <div class="topic-tags" style="margin-top:.5rem;">
             <span class="tag">National Archives</span>
             <span class="tag">Library of Congress</span>
+            <span class="tag">Georgetown Booth Family Center</span>
+            <span class="tag">Smithsonian Libraries</span>
+            <span class="tag">DC Public Library People's Archive</span>
             <span class="tag">JFK Library</span>
             <span class="tag">Duke Rubenstein Library</span>
             <span class="tag">Universal Newsreel Library</span>
@@ -927,9 +557,6 @@
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     TESTIMONIALS
-══════════════════════════════════════════════════════════════════ -->
 <section id="testimonials" aria-labelledby="testimonials-heading">
   <div class="container">
     <div class="section-header">
@@ -937,7 +564,6 @@
       <h2 id="testimonials-heading">What Clients Say</h2>
       <div class="divider" aria-hidden="true"></div>
     </div>
-
     <div class="testimonials-grid">
       <div class="testimonial-card">
         <blockquote>Sharp and penetrating. Accurate, punctual, and thoughtfully organized — exactly what you need when you're working against a deadline on sensitive archival material.</blockquote>
@@ -949,7 +575,6 @@
           </div>
         </div>
       </div>
-
       <div class="testimonial-card">
         <blockquote>Highly professional. Micah successfully located a rare 1968 photograph that I had been hunting for years, and kept me updated with consistent progress reports throughout. Outstanding service.</blockquote>
         <div class="testimonial-attr">
@@ -960,7 +585,6 @@
           </div>
         </div>
       </div>
-
       <div class="testimonial-card">
         <blockquote>Pickus Research Services delivered outstanding work on copyright research for European vintage posters. Micah's report was detailed, clear, and completed ahead of schedule. The 12-page document provided everything I needed, and I would happily work with them again.</blockquote>
         <div class="testimonial-attr">
@@ -971,14 +595,10 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     ABOUT
-══════════════════════════════════════════════════════════════════ -->
 <section id="about" aria-labelledby="about-heading">
   <div class="container">
     <div class="about-grid">
@@ -988,8 +608,8 @@
           <h3>Micah Pickus, MPP</h3>
           <p class="about-title">Founder, Pickus Research Services</p>
           <ul class="cred-list" aria-label="Credentials">
-            <li><span class="cred-icon" aria-hidden="true">🎓</span> MPP, University of Maryland (GPA 3.9)</li>
-            <li><span class="cred-icon" aria-hidden="true">🎓</span> BA, Brandeis University (GPA 3.7)</li>
+            <li><span class="cred-icon" aria-hidden="true">🎓</span> MPP, University of Maryland</li>
+            <li><span class="cred-icon" aria-hidden="true">🎓</span> BA, Brandeis University</li>
             <li><span class="cred-icon" aria-hidden="true">🏅</span> David L. Boren Fellow — Kazakhstan</li>
             <li><span class="cred-icon" aria-hidden="true">🏅</span> Critical Language Scholarship — Russian</li>
             <li><span class="cred-icon" aria-hidden="true">🏅</span> Duke Matlock Fellow-in-Residence (2019)</li>
@@ -1000,13 +620,12 @@
           </ul>
         </div>
       </div>
-
       <div class="about-text">
         <span class="label">About</span>
         <h2 id="about-heading" style="margin-top:.6rem;">Research You Can Trust, Delivered by Someone Who Gets It Done</h2>
         <p>Pickus Research Services was founded on a simple premise: the best research comes from someone who genuinely loves the hunt. Since 2019, I've been doing exactly that — digging through declassified CIA files at the National Archives, tracking down rare photographs in the Library of Congress stacks, and applying modern AI-enabled intelligence tradecraft to live research problems for clients who need answers, not guesswork.</p>
-        <p>My background spans both the historical and the contemporary. On the archival side, I've supported a Washington Post correspondent on Cold War espionage research, worked as a Matlock Fellow-in-Residence at Duke University, and researched topics from the Rosenberg case to the desegregation of collegiate basketball. On the intelligence side, I built competitive analytics frameworks at Palantir Technologies, contributed Russian-language OSINT to CNAS's Russia Strategic Initiative, and delivered competitive intelligence for corporate clients through Two Lakes Group and Delve Research.</p>
-        <p>I hold a Master of Public Policy from the University of Maryland (GPA: 3.9) with a focus on international security, and a BA in Humanities from Brandeis University. I'm a U.S. State Department Boren Fellow — completing intensive Russian-language study in Kazakhstan — and a Critical Language Scholarship recipient. My Russian is strong enough to read the archives, analyze the press, and catch what a machine translator misses.</p>
+        <p>My background spans both the historical and the contemporary. On the archival side, I've supported a Washington Post correspondent on Cold War espionage research, worked as a Matlock Fellow-in-Residence at Duke University, and researched topics from the Rosenberg case to copyright research for European vintage posters. On the intelligence side, I built competitive analytics frameworks at Palantir Technologies, contributed Russian-language OSINT to CNAS's Russia Strategic Initiative, and delivered competitive intelligence for corporate clients.</p>
+        <p>I hold a Master of Public Policy from the University of Maryland with a focus on international security, and a BA in Humanities from Brandeis University. I'm a U.S. State Department Boren Fellow — completing intensive Russian-language study in Kazakhstan — and a Critical Language Scholarship recipient. My Russian is strong enough to read the archives, analyze the press, and catch what a machine translator misses.</p>
         <p>Every PRS engagement is handled personally. You'll work with me directly, from the first conversation to the final report.</p>
         <a href="#contact" class="btn btn-navy mt-2">Work With Me</a>
       </div>
@@ -1014,9 +633,6 @@
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     FAQ  (targets "People Also Ask" and long-tail searches)
-══════════════════════════════════════════════════════════════════ -->
 <section id="faq" aria-labelledby="faq-heading">
   <div class="container">
     <div class="section-header">
@@ -1024,11 +640,10 @@
       <h2 id="faq-heading">Frequently Asked Questions</h2>
       <div class="divider" aria-hidden="true"></div>
     </div>
-
     <div class="faq-list">
       <details class="faq-item">
         <summary>What is archival research and why do I need someone in Washington, D.C. to do it?</summary>
-        <p>Many of the most important primary source collections in American history — including CIA FOIA records, presidential papers, military records, and rare photograph and newsreel collections — are housed at the National Archives and Library of Congress in Washington, D.C. Large portions of these collections are not digitized, meaning a physical visit is the only way to access them. PRS provides that on-site access, including same-day research, high-resolution scanning, and expert navigation of finding aids for complex collections.</p>
+        <p>Many of the most important primary source collections in American history — including CIA FOIA records, presidential papers, military records, and rare photograph and newsreel collections — are housed at the National Archives, Library of Congress, Georgetown's Booth Family Center for Special Collections, Smithsonian Libraries, and DC Public Library's People's Archive. Large portions of these collections are not digitized, meaning a physical visit is the only way to access them. Researchers at the Library of Congress also gain access to subscription databases — including ProQuest Historical Newspapers, Nexis Uni, and America's Historical Newspapers — that are not available remotely. PRS provides that on-site access, including same-day research, high-resolution scanning, and expert navigation of finding aids for complex collections.</p>
       </details>
       <details class="faq-item">
         <summary>What is OSINT and how is it different from traditional research?</summary>
@@ -1054,9 +669,6 @@
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     CONTACT
-══════════════════════════════════════════════════════════════════ -->
 <section id="contact" aria-labelledby="contact-heading">
   <div class="container">
     <div class="contact-grid">
@@ -1064,20 +676,10 @@
         <span class="label" style="color:var(--gold-l);">Get In Touch</span>
         <h2 id="contact-heading" style="margin-top:.6rem;">Let's Talk About Your Project</h2>
         <p>Every research project starts with a conversation. Tell us what you're looking for — whether it's a declassified file, a competitive intelligence report, a background check, or a translation — and we'll respond within one business day.</p>
-        <div class="contact-detail">
-          <span aria-hidden="true">📧</span>
-          <span>Email: <a href="mailto:pickusresearch@gmail.com">pickusresearch@gmail.com</a></span>
-        </div>
-        <div class="contact-detail">
-          <span aria-hidden="true">📍</span>
-          <span>Based in Washington, D.C. — serving clients globally.</span>
-        </div>
-        <div class="contact-detail">
-          <span aria-hidden="true">⏱️</span>
-          <span>Response within 1 business day.</span>
-        </div>
+        <div class="contact-detail"><span aria-hidden="true">📧</span><span>Email: <a href="mailto:pickusresearch@gmail.com">pickusresearch@gmail.com</a></span></div>
+        <div class="contact-detail"><span aria-hidden="true">📍</span><span>Based in Washington, D.C. — serving clients globally.</span></div>
+        <div class="contact-detail"><span aria-hidden="true">⏱️</span><span>Response within 1 business day.</span></div>
       </div>
-
       <div>
         <form class="contact-form" action="https://formspree.io/f/xwvrbrba" method="POST" aria-label="Contact form">
           <div class="form-group">
@@ -1111,9 +713,6 @@
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════
-     FOOTER
-══════════════════════════════════════════════════════════════════ -->
 <footer role="contentinfo">
   <div class="footer-inner">
     <p>&copy; 2026 Pickus Research Services. Washington, D.C.</p>
